@@ -21,11 +21,10 @@ for (let i = 0; i < arr.length; i++) {
     console.info(parseInt(arr[i])+1);   
     
 }*/
-let arr=[];
-for ( i = 0; i < 3; i++) {
- arr.push(prompt('input array'));
-}
+let arr=prompt('input array').split(' ');
+
 
 arr.forEach(arr => {
+    if (!isNaN(parseInt(arr)))
     console.info(parseInt(arr)+1);   
 });
