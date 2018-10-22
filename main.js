@@ -15,10 +15,17 @@ let numberTwo=prompt('Введите второе число');
 let numberThree=parseInt(numberOne) + parseInt(numberTwo);
 alert(numberThree);
 */
-
+/*
 let arr=[1,2,3];
-for (let i = 0; i < arr.length; i++) {
+for (let i = 0; i < arr.length; i++) {    
+    console.info(parseInt(arr[i])+1);   
     
-    console.info(parseInt(arr[i])+1);    
-    
+}*/
+let arr=[];
+for ( i = 0; i < 3; i++) {
+ arr.push(prompt('input array'));
 }
+
+arr.forEach(arr => {
+    console.info(parseInt(arr)+1);   
+});
