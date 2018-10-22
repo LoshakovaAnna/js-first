@@ -7,10 +7,18 @@ if (userPassword===originPassword){
 else{
     alert('wrong passwod');
 }*/
-
+/*
 let numberOne=prompt('Введите первое число');
 
 let numberTwo=prompt('Введите второе число');
 //let numberThree=+numberOne + (+numberTwo);
 let numberThree=parseInt(numberOne) + parseInt(numberTwo);
 alert(numberThree);
+*/
+
+let arr=[1,2,3];
+for (let i = 0; i < arr.length; i++) {
+    
+    console.info(parseInt(arr[i])+1);    
+    
+}
